@@ -290,6 +290,7 @@ body {
 
 .About-Features {
   background-color: rgba(228, 223, 223, 0.164);
+  height: fit-content;
   position: relative;
 }
 
