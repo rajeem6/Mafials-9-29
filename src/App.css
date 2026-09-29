@@ -290,7 +290,7 @@ body {
 
 .About-Features {
   background-color: rgba(228, 223, 223, 0.164);
-  height: fit-content;
+  height: 100vh;
   position: relative;
 }
 
@@ -1203,14 +1203,14 @@ a {
     gap: 20px;
   }
 
-  .selected-card-img-skeleton{
+  .selected-card-img-skeleton {
     width: 60vw;
   }
-  .skelly-name{
+  .skelly-name {
     margin-top: 20px;
     max-width: 246px;
   }
-  .selected-card-description-wrapper{
+  .selected-card-description-wrapper {
     margin-top: 20px;
     margin-bottom: 10px;
     display: flex;
@@ -1218,19 +1218,19 @@ a {
     gap: 8px;
     align-items: center;
   }
-  .skelly-desc{
+  .skelly-desc {
     width: 40vw;
   }
-  .skelly-desc-1{
+  .skelly-desc-1 {
     width: 26vw;
   }
-  .selected-card-add-skelly{
+  .selected-card-add-skelly {
     width: 40vw;
   }
-  .selected-card-detail-skelly{
+  .selected-card-detail-skelly {
     width: 70%;
   }
-  .p-skelly-2{
+  .p-skelly-2 {
     width: 50%;
   }
 }
