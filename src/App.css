@@ -295,7 +295,7 @@ body {
 
 .About-Features__row {
   box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.3);
-  height: 100vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1201,6 +1201,37 @@ a {
 
   .selected-card-specificity {
     gap: 20px;
+  }
+
+  .selected-card-img-skeleton{
+    width: 60vw;
+  }
+  .skelly-name{
+    margin-top: 20px;
+    max-width: 246px;
+  }
+  .selected-card-description-wrapper{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  .skelly-desc{
+    width: 40vw;
+  }
+  .skelly-desc-1{
+    width: 26vw;
+  }
+  .selected-card-add-skelly{
+    width: 40vw;
+  }
+  .selected-card-detail-skelly{
+    width: 70%;
+  }
+  .p-skelly-2{
+    width: 50%;
   }
 }
 

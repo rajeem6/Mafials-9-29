@@ -6,7 +6,7 @@ const SelectedCardPageSkeleton = () => {
       <div className="selected-Card-Main">
         <div className="container">
           <div className="row selected-card-main-row">
-            <div className="selected-card-content">
+            <div className="selected-card-content card-content-skelly">
               <div className="selected-card-img-skeleton skeleton"></div>
 
               <div className="selected-card-content-info">
@@ -21,7 +21,7 @@ const SelectedCardPageSkeleton = () => {
             </div>
             <div className="selected-card-information">
               <div className="selected-card-detail-skelly p-skelly-1 skeleton"></div>
-              <div className="selected-card-detail-skelly skeleton"></div>
+              <div className="selected-card-detail-skelly p-skelly-2 skeleton"></div>
               <div className="selected-card-specificity">
                 <div className="selected-card-spec-skelly skeleton"></div>
                 <div className="selected-card-spec-skelly skeleton"></div>
