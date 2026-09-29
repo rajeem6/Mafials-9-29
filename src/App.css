@@ -304,6 +304,7 @@ body {
   gap: 30px;
   text-align: center;
   position: relative;
+  margin-top: 40px;
 }
 
 .About-Features__row h2 {
