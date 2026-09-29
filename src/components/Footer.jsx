@@ -10,13 +10,13 @@ const Footer = () => {
         <div className="row footer__row">
           <h3>Keep exploring. There's always more to discover.</h3>
           <div className="footer__links-1">
-            <a className="footer__link" href="">
+            <a className="footer__link" href="#">
               <FontAwesomeIcon className="foot-linkedIn" icon={faLinkedin} />
             </a>
-            <a className="footer__link" href="">
+            <a className="footer__link foot-link-git" href="https://github.com/rajeem6" target="_blank">
               <FontAwesomeIcon className="foot-Github" icon={faGithub} />
             </a>
-            <a className="footer__link" href="">
+            <a className="footer__link" href="#">
               <FontAwesomeIcon className="foot-pdf" icon={faFilePdf} />
             </a>
           </div>
